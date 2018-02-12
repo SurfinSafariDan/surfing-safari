@@ -7,11 +7,11 @@ if (registeredEarly !== true) {
 };
 
 if ((runnerAge >= 18) && (registeredEarly == true)) {
-  console.log(`Your race number is ${raceNumber}. Your race start time is 9:30 am.`);
+  console.log(`Your race number is ${raceNumber}. Your race start time is 9:30am.`);
 } else if ((runnerAge >= 18) || (!registeredEarly == true)) {
-  console.log(`Your race number is ${raceNumber}. Your race start time is 11:00 am.`);
+  console.log(`Your race number is ${raceNumber}. Your race start time is 11:00am.`);
 } else if ((runnerAge < 18) && (registeredEarly == false)) {
-  console.log(`Your race number is ${raceNumber}. Your race start time is 12:30 pm.`);
+  console.log(`Your race number is ${raceNumber}. Your race start time is 12:30pm.`);
 } else {
   console.log('Please see the registration desk.');
 }
